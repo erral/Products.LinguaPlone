@@ -4,7 +4,16 @@ Changelog
 4.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Added native language to the "Translate into..." menu
+  [erral]
+
+- Added a viewlet to write metadata with the translated content urls
+  like suggested by Google at:
+
+  - http://googlewebmastercentral.blogspot.com/2010/09/unifying-content-under-multilingual.html 
+
+  - http://googlewebmastercentral.blogspot.com/2011/12/new-markup-for-multilingual-content.html
+  
 
 
 4.1.1 (2011-11-15)
