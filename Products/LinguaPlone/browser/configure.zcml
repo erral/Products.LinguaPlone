@@ -98,4 +98,14 @@
     template="selector.pt"
     />
 
+  <browser:viewlet
+    name="Products.LinguaPlone.contentlinks"
+    manager="plone.app.layout.viewlets.interfaces.IHtmlHeadLinks"
+    class=".links.MultilingualContentViewlet"
+    layer="..interfaces.ILinguaPloneProductLayer"
+    template="links.pt"
+    permission="zope2.View"
+    />
+
+
 </configure>
