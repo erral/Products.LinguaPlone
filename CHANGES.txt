@@ -14,6 +14,16 @@ Changelog
 
   - http://googlewebmastercentral.blogspot.com/2011/12/new-markup-for-multilingual-content.html
   
+- Translation helper scripts (getTransaltedLanguages, getUntranslatedLanguages,
+  getDeletableLanguages) are now view methods.
+  [thomasdesvenain]
+
+- Display the translation of the folder default page in the current language
+  when the folder is neutral.
+  [thomasdesvenain]
+
+- Avoid problems when setLanguage is given a null value that is not ''.
+  [thomasdesvenain]
 
 
 4.1.1 (2011-11-15)

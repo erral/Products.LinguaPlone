@@ -3,3 +3,5 @@ develop-eggs/
 include/
 lib/
 parts/
+*.pyc
+*.egg-info
