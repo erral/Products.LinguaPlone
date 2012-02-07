@@ -17,8 +17,9 @@ class MultilingualContentViewlet(ViewletBase):
                 if lang != current and _checkPermission('View', content):
                     self.translations.append(content)
         except AttributeError:
-            # Handle the situation for site-root templates.
-            # Plone site root has not translations
+            # Handle the situation for site-root templates where the context
+            # is the Plone site itself and has no translations. The same
+            # happens with other items without translations
             pass
 
             
