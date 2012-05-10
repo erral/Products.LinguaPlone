@@ -99,6 +99,7 @@
     />
 
   <browser:viewlet
+    for="Products.LinguaPlone.interfaces.ITranslatable"
     name="Products.LinguaPlone.contentlinks"
     manager="plone.app.layout.viewlets.interfaces.IHtmlHeadLinks"
     class=".links.MultilingualContentViewlet"
